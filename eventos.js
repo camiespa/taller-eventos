@@ -1,6 +1,5 @@
-const container = document.querySelector("#container");
-container.addEventListener("click", alerta);
+document.querySelector("#container").addEventListener("click",alerta);
 
-function alerta() {
+function alerta(){
   alert("Hola! Soy el div!");
-};
+}
