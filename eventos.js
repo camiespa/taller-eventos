@@ -6,4 +6,6 @@ function alerta() {
 };
 
 const btn = document.querySelector("button");
-btn.removeEventListener("click", alerta);
+btn.addEventListener("click", (event) => {
+event.stopPropagation();
+});
